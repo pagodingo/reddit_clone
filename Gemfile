@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
+#Votable => voting function
+gem 'acts_as_votable', '~> 0.11.1'
 
 gem 'devise'
 #Bootstrap
