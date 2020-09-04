@@ -4,7 +4,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.0'
 #Votable => voting function
 gem 'acts_as_votable', '~> 0.11.1'
-
+#
+#For comment forms
+gem 'simple_form'
+#so that we can use the 'div_for' method
+gem 'record_tag_helper', '~> 1.0'
+#
 gem 'devise'
 #Bootstrap
 gem 'bootstrap-sass'
